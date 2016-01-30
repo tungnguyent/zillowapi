@@ -1,0 +1,93 @@
+body {
+    font: normal 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #4A4A4A;
+    width: 100%;
+    margin: 0 auto;
+
+}
+section {
+    margin: 0 auto;
+        display: block;
+}
+.content {
+    width: 100%;
+}
+.form-section {
+    text-align: center;
+    color: #ffffff;
+    padding: 2em 0;
+    background-color: #000;
+    margin-top: 10px;
+}
+.form-section h1 {
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #ffffff;
+}
+.form-section .search-form {
+    max-width: 600px;
+    margin: 0 auto;
+    outline: 0;
+}
+.form-section .form-input {
+    color: #ffffff;
+    background-color: #000000;
+    border: 3px solid #fff;
+    padding: 1em;
+    font-size: 1.3em;
+    margin: 10px;
+    width: 40%;
+    float: left;
+    position: relative;    
+}
+.result-section {
+    border-top: 3px solid #3494F1;
+    background-color: #ffffff;    
+}
+.result-section .result-detail {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 980px;
+    background-color: #ffffff;
+}
+
+.result-header {
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #3494F1;    
+}
+
+.address, .estimate {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+.address .street{
+    display: block;
+    font-size: 3.2em;
+}
+.address .citystatezip{
+    display: block;
+    font-size: 2em;
+}
+.address a, .address a:visited{
+    color: #3494F1;
+}
+
+.estimate h2 {
+    color: #3494F1;
+    font-size: 2em;
+    
+}
+.estimate table {
+    width: 100%;
+    font-size: 1.5em;
+}
+.estimate .price-range {
+    text-align: center;
+}
